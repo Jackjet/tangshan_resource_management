@@ -1,0 +1,116 @@
+@charset "utf-8";
+.detail_panel{
+  background-color: #fff;
+  width:100%;
+  /* height:320px; */
+}
+.detail_img{
+  width:150px;
+  height:150px;
+  background:rgba(255,255,255,1);
+  border:1px solid rgba(237,237,237,1);
+}
+.detailTop_left{
+  text-align: center;
+}
+.detail_img{
+  margin:0 auto;
+  margin-top: 40px;
+}
+.detail_img img{
+  width: 150px;
+  height: 150px;
+}
+.isAttention{
+  width:150px;
+  height:32px;
+  background:rgba(0,170,113,1);
+  border-radius:2px;
+  margin:0 auto;
+  margin-top: 24px;
+  /*line-height: 32px;*/
+
+  font-size:16px;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+  line-height:32px;
+}
+.isAttention img{
+  margin-right: 8px;
+}
+.feedback_idea{
+  width:150px;
+  height:32px;
+  border-radius:2px;
+  margin:0 auto;
+  margin-top: 16px;
+  border:1px solid rgba(204,204,204,1);
+  font-size:16px;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+  line-height:32px;
+}
+.detailTop_right{
+  margin-top:40px;
+}
+.detail_title{
+  font-size:18px;
+  font-family:PingFangSC-Medium;
+  font-weight:500;
+  color:rgba(51,51,51,1);
+  line-height:22px;
+}
+.detail_title{
+  float: left;
+}
+.detail_look{
+  float: right;
+  margin-right:40px;
+}
+.detail_look img{
+  margin-right:8px
+}
+.identify_label{
+  width:112px;
+  height:22px;
+  background:rgba(255,185,56,1);
+  border-radius:12px 0px 12px 0px;
+  float: right;
+  padding-left: 8px;
+  font-size:12px;
+  font-family:FontName;
+  color:rgba(255,255,255,1);
+  line-height:22px;
+  margin-right:40px;
+  text-align: center;
+}
+.identify{
+  width:100%;
+  height:22px;
+  margin-top: 28px;
+  margin-bottom: 24px;
+}
+.label_group{
+  font-size:14px;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+  line-height:14px;
+}
+.infoTable thead{
+  font-size:14px;
+  font-family:PingFangSC-Medium;
+  font-weight:500;
+  color:rgba(0,0,0,0.85);
+  line-height:21px;
+}
+/*.infoTable{
+  width: 95%;
+  margin: 0 auto;
+}*/
+.detail_tabs{
+  margin-bottom: 64px;
+  background-color: #ffffff;
+}

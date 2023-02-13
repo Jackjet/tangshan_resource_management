@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="232px" height="240px" viewBox="0 0 232 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>logo_bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4,0 L228,0 C230.209139,-4.05812251e-16 232,1.790861 232,4 L232,236 C232,238.209139 230.209139,240 228,240 L4,240 C1.790861,240 2.705415e-16,238.209139 0,236 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="path-1"></path>
+        <linearGradient x1="100%" y1="58.3494884%" x2="0%" y2="56.3327883%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.05" offset="35.9592519%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="97.5102161%" y1="56.3132542%" x2="0%" y2="56.3327883%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.1" offset="35.9592519%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="56.3327883%" x2="0%" y2="56.3327883%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.05" offset="35.9592519%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="50%" x2="50%" y2="5.55111512e-15%" id="linearGradient-6">
+            <stop stop-color="#FFFFFF" stop-opacity="0.05" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.05" offset="35.9592519%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="09个人中心_00个人中心" transform="translate(-360.000000, -100.000000)">
+            <g id="item_01">
+                <g id="menu" transform="translate(360.000000, 100.000000)">
+                    <g id="user">
+                        <g id="logo_bg">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="矩形" fill="#00AA71" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <path d="M54.6632558,98.5559922 L54.6632558,144.377284 L-14.735814,144.377284 C-40.2874419,144.377284 -61,123.86301 -61,98.5559922 C-61,73.2489743 -40.2874419,52.7319369 -14.735814,52.7319369 C10.815814,52.7319369 31.5311628,73.2489743 31.5311628,98.5559922 L54.6632558,98.5559922 Z" id="路径" fill="url(#linearGradient-3)" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                            <path d="M141.409302,64.1886418 C141.409302,90.1673073 128.937674,113.257612 109.60093,127.912244 L109.60093,144.377284 L60.4455814,144.377284 C15.7302326,144.377284 -20.5181395,108.475923 -20.5181395,64.1886418 C-20.5181395,19.9013604 15.7302326,-16 60.4455814,-16 C105.16093,-16 141.409302,19.9013604 141.409302,64.1886418 Z" id="路径" fill="url(#linearGradient-4)" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                            <path d="M51.772093,81.372317 C51.772093,116.168999 80.2530301,144.377284 115.386047,144.377284 C150.519063,144.377284 179,116.168999 179,81.372317 C179,46.5756348 150.519063,18.3673505 115.386047,18.3673505 C80.2530301,18.3673505 51.772093,46.5756348 51.772093,81.372317 Z" id="路径" fill="url(#linearGradient-5)" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                            <path d="M-0.734883721,168.493025 L23.6139535,168.493025 L23.6139535,211.940747 L-0.734883721,211.940747 L-0.734883721,168.493025 Z M47.9655814,168.493025 L72.3144186,168.493025 L72.3144186,224 L47.9655814,224 L47.9655814,168.493025 Z M96.6660465,168.493025 L121.014884,168.493025 L121.014884,211.940747 L96.6660465,211.940747 L96.6660465,168.493025 Z" id="形状" fill="url(#linearGradient-6)" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

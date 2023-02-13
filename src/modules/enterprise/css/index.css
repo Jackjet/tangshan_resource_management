@@ -1,0 +1,300 @@
+@charset "utf-8";
+/*
+ * Project: zzPC 数据目录列表页
+ * Description: Private CSS;
+ * Author: Tongjz
+ * Version: 2018-05-21;
+ */
+
+/*部门目录*/
+.deptMenu {
+  width: 200px;
+  overflow: hidden;
+}
+
+.deptMenu .title {
+  width: 200px;
+  padding: 0 15px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  background: url(../images/leftlistBg.png) no-repeat left top;
+  overflow: hidden;
+}
+
+.deptMenuList {
+  width: 200px;
+  height: 722px;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.deptMenuList .deptList {
+  padding: 0 15px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 14px;
+  color: #333333;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-bottom: 1px dashed #E5E5E5;
+  box-sizing: border-box;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.deptMenuList .deptList.selected {
+  border-left: 3px solid #15A6FC;
+  font-size: 14px;
+  color: #15A6FC;
+  font-weight: bold;
+}
+
+.deptMenuList .deptList:hover {
+  border-left: 3px solid #999999;
+  font-size: 14px;
+  color: #999999;
+  font-weight: bold;
+}
+
+.deptMenuList .deptList:last-child {
+  border-bottom: none;
+}
+
+/*部门详情*/
+
+.deptListDetail {
+  width: 880px;
+}
+
+.selectCondition {
+  width: 100%;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.selectCondition .condShow {
+  width: 100%;
+  padding: 0 20px 12px 20px;
+  background: #f6f6f6;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+
+.selectCondition .condShow .condTitle {
+  margin: 12px 10px 0 0;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #333333;
+}
+
+.selectCondition .condShow .condDelete {
+  margin: 12px 20px 0 0;
+  padding: 0 0 0 10px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 14px;
+  color: #333333;
+  border: 1px solid #D0D0D0;
+  background: #FFFFFF;
+  overflow: hidden;
+}
+
+.selectCondition .condShow .deleteThis {
+  width: 20px;
+  height: 22px;
+  background: url(../images/delete1.png) no-repeat center center;
+}
+
+.selectCondition .condShow .condSelected {
+  margin-right: 20px;
+}
+
+.selectCondition .condShow .condDelete:hover {
+  color: #15a6fc;
+  border: 1px solid #15a6fc;
+}
+
+.selectCondition .condShow .condDelete:hover .deleteThis {
+  background: url(../images/delete2.png) no-repeat center center;
+}
+
+.selectCondition .condShow .condDelete .deleteThis:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.selectCondition .condShow .condClean {
+  padding-left: 18px;
+  margin-top: 12px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 13px;
+  color: #333333;
+  background: url(../images/clearSelect1.png) no-repeat left center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.selectCondition .condShow .condClean:hover {
+  color: #15a6fc;
+  background: url(../images/clearSelect2.png) no-repeat left center;
+}
+
+.selectCondition .condList {
+  width: 100%;
+  padding: 4px 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+
+.selectCondition .condList:last-child {
+  border: none;
+}
+
+.selectCondition .condList .condListTitle {
+  min-width: 70px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #333333;
+  text-align: right;
+  overflow: hidden;
+}
+
+.selectCondition .condList .condListInfo {
+  width: auto;
+  overflow: hidden;
+}
+
+.selectCondition .condList .condListFont {
+  margin: 0 12px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #333333;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.selectCondition .condList .condListFont.selected, .selectCondition .condList .condListFont:hover {
+  color: #15a6fc;
+  font-weight: bold;
+}
+
+.conditionSearch {
+  width: 100%;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+.conditionSearch .resultCount {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #333333;
+}
+
+.conditionSearch .resultCount .resuletNum {
+  color: #15a6fc;
+}
+
+.conditionSearch .searchBox {
+  width: 200px;
+  height: 30px;
+  font-size: 0;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.conditionSearch .searchBox:hover {
+  border: 1px solid #15A6FC;
+}
+
+.conditionSearch .searchBox .searchInput {
+  width: 172px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+  font-size: 12px;
+  color: #333333;
+  border: none;
+  background: none;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.conditionSearch .searchBox .deptSearchBtn {
+  width: 26px;
+  height: 28px;
+  background: url(../images/deptSearch1.png) no-repeat left center;
+  cursor: pointer;
+}
+
+.conditionSearch .searchBox .deptSearchBtn:hover {
+  background: url(../images/deptSearch2.png) no-repeat center center;
+}
+
+.conditionTable {
+  width: 100%;
+  overflow: hidden;
+}
+
+.conditionTable table {
+  border: 1px solid #E5E5E5;
+}
+
+.conditionTable table tr {
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.conditionTable table tr:hover {
+  background: #ebf8ff;
+}
+
+.conditionTable table tr th {
+  padding: 12px 10px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #000000;
+  border-right: 1px solid #E5E5E5;
+  background: #F6F6F6;
+}
+
+.conditionTable table tr td {
+  padding: 12px 10px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #333333;
+  border-right: 1px solid #E5E5E5;
+}
+
+.conditionTable table tr td:nth-child(2), .conditionTable table tr td:nth-child(3) {
+  /*width: 260px !important;*/
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.conditionTable table tr td:nth-child(2):hover, .conditionTable table tr td:nth-child(3):hover {
+  color: #15A6FC;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+

@@ -1,0 +1,78 @@
+{
+    "cities": [
+        {
+            "code": "510400",
+            "name": "攀枝花",
+            "abbr": "panzhihua_share",
+            "url": "http://www.citysdk.cn/",
+            "logo": "logo.png"
+        },{
+            "code": "000000",
+            "name": "全国",
+            "abbr": "quanguo",
+            "url": "http://www.citysdk.cn/",
+            "logo": "logo.png"
+        },{
+            "code": "110000",
+            "name": "北京",
+            "abbr": "beijing",
+            "url": "http://bj.citysdk.cn/",
+            "logo": "logo.png"
+        },{
+            "code": "440100",
+            "name": "广州",
+            "abbr": "guangzhou",
+            "url": "http://gz.citysdk.cn/",
+            "logo": "logo.png"
+        },{
+            "code": "320300",
+            "name": "徐州",
+            "abbr": "xuzhou",
+            "url": "http://xz.citysdk.cn/",
+            "logo": "logo.png"
+        },{
+            "code": "320582",
+            "name": "张家港",
+            "abbr": "zhangjiagang",
+            "url": "http://zjg.citysdk.cn/",
+            "logo": "logo.png"
+        },{
+            "code": "320600",
+            "name": "南通",
+            "abbr": "nantong",
+            "url": "http://nt.citysdk.cn/",
+            "logo": "logo.png"
+        },{
+            "code": "340500",
+            "name": "马鞍山",
+            "abbr": "maanshan",
+            "url": "http://mas.citysdk.cn/",
+            "logo": "logo.png"
+        },{
+            "code": "520100",
+            "name": "贵阳",
+            "abbr": "guiyang",
+            "url": "http://gy.citysdk.cn/",
+            "logo": "gylogo.png"
+        },{
+            "code": "810000",
+            "name": "香港",
+            "abbr": "xianggang",
+            "url": "http://hk.citysdk.cn/",
+            "logo": "logo.png"
+        },{
+            "code": "131028",
+            "name": "大厂",
+            "abbr": "dachang",
+            "url": "http://dachang.citysdk.cn/",
+            "logo": "dachanglogo.png"
+        },{
+            "code": "123456",
+            "name": "test",
+            "abbr": "test",
+            "url": "http://www.citysdk.cn/",
+            "logo": "logo.png"
+      }
+    ],
+    "test": "123345678990"
+}

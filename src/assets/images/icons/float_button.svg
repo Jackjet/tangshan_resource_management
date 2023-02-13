@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="100px" viewBox="0 0 98 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>float_button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M26.9544135,1.09447155 L47.9544135,12.8544715 C49.2176404,13.5618786 50,14.8966811 50,16.3444956 L50,39.6555044 C50,41.1033189 49.2176404,42.4381214 47.9544135,43.1455285 L26.9544135,54.9055285 C25.7401851,55.5854964 24.2598149,55.5854964 23.0455865,54.9055285 L2.04558652,43.1455285 C0.782359618,42.4381214 8.07821194e-15,41.1033189 5.32907052e-15,39.6555044 L8.8817842e-16,16.3444956 C7.10872274e-16,14.8966811 0.782359618,13.5618786 2.04558652,12.8544715 L23.0455865,1.09447155 C24.2598149,0.414503631 25.7401851,0.414503631 26.9544135,1.09447155 Z" id="path-1"></path>
+        <filter x="-80.0%" y="-56.1%" width="260.0%" height="240.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.282352941   0 0 0 0 0.768627451   0 0 0 0 0.474509804  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01首页_01基础信息资源" transform="translate(-1806.000000, -2987.000000)" fill-rule="nonzero">
+            <g id="float_button" transform="translate(1830.000000, 3001.000000)">
+                <g id="多边形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#00AA71" xlink:href="#path-1"></use>
+                </g>
+                <path d="M10,29.0215259 L12.9032525,29.0215259 L12.9032525,38.9999695 L15.806505,38.9999695 L15.806505,29.0215259 L18.7097575,29.0215259 L18.7097575,27.0261787 L10,27.0261787 L10,29.0215259 Z M24.4816085,17 L19.6487877,21.9860418 L29.3256949,21.9793651 L24.4816085,17 Z M19.6772915,39 L29.3545831,39 L29.3545831,27.0262092 L19.6772915,27.0262092 L19.6772915,39 Z M22.5805441,29.0215259 L26.4513897,29.0215259 L26.4513897,37.0037381 L22.5805441,37.0037381 L22.5805441,29.0215259 Z M30.3226493,39 L33.2259018,39 L33.2259018,34.010763 L40,34.010763 L40,27.0261787 L30.3226493,27.0261787 L30.3226493,39 Z M37.0967475,32.0150194 L33.2259018,32.0150194 L33.2259018,29.0215564 L37.0967475,29.0215564 L37.0967475,32.0150194 Z" id="top" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

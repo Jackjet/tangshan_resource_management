@@ -1,0 +1,164 @@
+.policy_title{
+  font-size:36px;
+  font-family:PingFangSC-Medium;
+  font-weight:500;
+  color:rgba(255,255,255,1);
+  line-height:26px;
+  letter-spacing:3px;
+  margin-top:40px;
+  margin-bottom:28px;
+  margin-left: 34px;
+}
+.policy_subTitle{
+  height: 17px;
+  margin-bottom: 85px;
+  margin-left: 34px;
+}
+.policy_subTitle span{
+  width:1px;
+  height:24px;
+  background:rgba(255,255,255,1);
+  margin-right:11px;
+  float: left;
+}
+.policy_subTitle p{
+  float: left;
+  margin-right:11px;
+  font-size:24px;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+  line-height:17px;
+}
+.policy_tabs{
+  margin-top:  80px;
+}
+
+.policy_tabs .el-tabs__item.is-active {
+  width: 131px;
+  height: 30px;
+  background: rgba(255,255,255,1);
+  border-radius: 1px;
+  border: 1px solid rgba(225,225,225,1);
+  line-height: 30px;
+  text-align: center;
+  font-size: 11px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(0,170,113,1);
+}
+.policy_tabs
+.el-tabs__item.is-active
+.el-icon-arrow-right{
+  color: rgba(0,170,113,1)!important;
+  float: right;
+  line-height: 30px;
+}
+
+.policy_tabs .dot{
+  width: 4px;
+  height: 4px;
+  margin-right:4px;
+  border-radius: 2px;
+  float: left;
+  margin-top: 12px;
+  background: rgba(0,170,113,1);
+}
+.policy_tabs .el-tabs--left .el-tabs__item.is-left {
+  text-align: center;
+  font-size: 16px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(102,102,102,1);
+  line-height: 30px;
+  margin-bottom: 9px;
+  height:30px;
+}
+.policy_tabs .el-tabs--left .el-tabs__item.is-left .dot{
+
+}
+.policy_tabs
+.el-tabs--left
+.el-tabs__item.is-left
+.el-icon-arrow-right{
+  color: #fff ;
+}
+.policy_tabs .el-tabs__nav-wrap::after{
+  background-color: #fff;
+}
+.policy_tabs .el-tabs__active-bar{
+  background-color: unset;
+}
+.policy_tabs .message_item{
+  height:107px;
+  margin-bottom:17px;
+}
+.policy_tabs .policyFile_item,.policy_tabs .share_item{
+  height:144px;
+  margin-bottom:17px;
+}
+.policy_tabs .policyDateD{
+  font-size: 24px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(0,170,113,1);
+  line-height: 17px;
+  text-align: right;
+  margin-right:14px;
+}
+.policy_tabs .policyDateYM{
+  width:100%;
+  height:24px;
+  line-height: 20px;
+  border-bottom:1px solid rgba(237,237,237,1);
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(153,153,153,1);
+  margin-bottom:11px;
+}
+.policy_tabs .message_item .item_title{
+  font-size:18px;
+  font-family:PingFangSC-Medium;
+  font-weight:500;
+  color:rgba(51,51,51,1);
+  line-height:13px;
+  margin-bottom: 28px;
+}
+.policy_tabs .policyFile_item .item_title,
+.policy_tabs .share_item .item_title{
+  font-size:18px;
+  font-family:PingFangSC-Medium;
+  font-weight:500;
+  color:rgba(51,51,51,1);
+  line-height:13px;
+  margin-bottom: 14px;
+}
+.policy_tabs .goPolicyDetail{
+  font-size:16px;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(0,170,113,1);
+  line-height:11px;
+  cursor: pointer;
+  float: right;
+}
+.policy_tabs .goPolicyDetail img{
+  width:14px;
+  height:10px;
+  margin-left: 11px;
+}
+
+.policy_tabs .policyFile_item .item_description,
+.policy_tabs .share_item .item_description{
+  font-size:14px;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+  line-height:17px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-bottom:17px
+}

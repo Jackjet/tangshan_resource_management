@@ -1,0 +1,253 @@
+@charset "utf-8";
+/*
+ * Project: zzPC 数据目录列表页
+ * Description: Private CSS;
+ * Author: Tongjz
+ * Version: 2018-05-22;
+ */
+
+/*目录详情*/
+.disflex {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.formGroup {
+  position: relative;
+  align-items: center;
+}
+
+.flex1 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.menuDetailTitle {
+  width: 100%;
+  padding: 25px 0;
+  line-height: 40px;
+  font-size: 30px;
+  color: #333333;
+  text-align: center;
+  overflow: hidden;
+}
+
+.menuDetailNavs {
+  width: 100%;
+  margin-bottom: 30px;
+  border-top: 1px solid #E5E5E5;
+  border-left: 1px solid #E5E5E5;
+  border-right: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.menuDetailNav {
+  height: 48px;
+  line-height: 48px;
+  font-size: 18px;
+  color: #666666;
+  text-align: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border-right: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+  background: #f8f8f8;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.menuDetailNav.selected {
+  height: 46px;
+  line-height: 46px;
+  color: #15a6fc;
+  font-weight: bold;
+  background: none;
+  border-bottom: none;
+  border-top: 3px solid #15a6fc;
+}
+
+.menuDetailNav span {
+  display: inline-block;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.menuDetailNav.menu1 span {
+  background: url(../images/detail/menu1_1.png) no-repeat left center;
+  background-size: 30px;
+}
+
+.menuDetailNav.menu1.selected span {
+  background: url(../images/detail/menu1_2.png) no-repeat left center;
+  background-size: 30px;
+}
+
+.menuDetailNav.menu2 span {
+  background: url(../images/detail/menu2_1.png) no-repeat left center;
+  background-size: 30px;
+}
+
+.menuDetailNav.menu2.selected span {
+  background: url(../images/detail/menu2_2.png) no-repeat left center;
+  background-size: 30px;
+}
+
+.menuDetailNav.menu3 span {
+  background: url(../images/detail/menu3_1.png) no-repeat left center;
+  background-size: 30px;
+}
+
+.menuDetailNav.menu3.selected span {
+  background: url(../images/detail/menu3_2.png) no-repeat left center;
+  background-size: 30px;
+}
+
+.menuDetailNav.menu4 span {
+  background: url(../images/detail/menu4_1.png) no-repeat left center;
+  background-size: 30px;
+}
+
+.menuDetailNav.menu4.selected span {
+  background: url(../images/detail/menu4_2.png) no-repeat left center;
+  background-size: 30px;
+}
+
+.menuDetailNav.menu5 span {
+  background: url(../images/detail/menu5_1.png) no-repeat left center;
+  background-size: 30px;
+}
+
+.menuDetailNav.menu5.selected span {
+  background: url(../images/detail/menu5_2.png) no-repeat left center;
+  background-size: 30px;
+}
+
+/*目录详情表格*/
+.menuDetailTable {
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.menuDetailTable table {
+  width: 100%;
+  border: 1px solid #E5E5E5;
+}
+
+.menuDetailTable table tr {
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.menuDetailTable table tr th {
+  vertical-align: middle;
+  padding: 7px 15px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #888888;
+  background: #f4f6f8;
+  border-right: 1px solid #E5E5E5;
+}
+
+.menuDetailTable table tr td {
+  vertical-align: middle;
+  padding: 7px 15px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #333333;
+  word-break: break-all;
+  border-right: 1px solid #E5E5E5;
+}
+
+.menuDetailTable table tr td:hover {
+  background: #ebf8ff;
+}
+
+.menuDetailTable.dataTable {
+  overflow: auto;
+}
+
+.menuDetailTable.dataTable table {
+  width: auto !important;
+}
+
+.menuDetailTable.dataTable table tr:hover, .menuDetailTable.browseTable table tr:hover {
+  background: #ebf8ff;
+}
+
+.menuDetailTable.dataTable table tr th {
+  white-space: nowrap;
+}
+
+.menuDetailTable.dataTable table tr td, .menuDetailTable.browseTable table tr td {
+  text-align: center;
+}
+
+.menuDetailTable.dataTable table tr td:nth-child(2) {
+  max-width: 200px;
+}
+.menuDetailTable.browseTable { overflow: auto;}
+.menuDetailTable.browseTable table { width: auto;}
+.menuDetailTable.browseTable tr th { white-space: nowrap; min-width: 100px;}
+.menuDetailTable.browseTable tr th:first-child { min-width: 30px;}
+.menuDetailTable.browseTable tr td img {
+  vertical-align: middle;
+}
+
+.menuDetailTable.browseTable tr td:nth-child(4) {
+  max-width: 300px;
+}
+
+.menuDetailTable.browseTable tr td:nth-child(6) {
+  max-width: 220px;
+}
+
+.menuMinTitle {
+  position: relative;
+  width: 100%;
+  padding: 10px 0;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  color: #333333;
+  font-weight: bold;
+  text-indent: 12px;
+  overflow: hidden;
+}
+
+.menuMinTitle:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 18px;
+  width: 0;
+  height: 16px;
+  border: 2px solid #15a6fc;
+  border-radius: 2px;
+}
+
+.menuDetailTable .loadingCSV {
+  padding-left: 32px;
+  background: url(../images/detail/fileCSV.png) no-repeat left center;
+}
+
+.menuDetailTable .loadingXSL {
+  padding-left: 32px;
+  background: url(../images/detail/fileXLS.png) no-repeat left center;
+}
+
+.menuDetailTable .loadingJSON {
+  padding-left: 32px;
+  background: url(../images/detail/fileJson.png) no-repeat left center;
+}
+
+.menuDetailTable .loadingXML {
+  padding-left: 32px;
+  background: url(../images/detail/fileXML.png) no-repeat left center;
+}
+
+

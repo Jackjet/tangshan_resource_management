@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_attention_sel</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02资源目录_03目录详情_01信息项" transform="translate(-439.000000, -361.000000)" fill="#FFFFFF">
+            <g id="item_01">
+                <g id="info" transform="translate(360.000000, 138.000000)">
+                    <g id="已关注" transform="translate(40.000000, 214.000000)">
+                        <path d="M53.7033739,10.3619234 C51.9742835,8.54602555 49.1705717,8.54602555 47.4417551,10.3619234 L47.0001917,10.8257844 L46.5583726,10.3619234 C44.8292823,8.54602555 42.025826,8.54602555 40.2970094,10.3619234 C38.5676635,12.1776295 38.5676635,15.1216463 40.2970094,16.9375249 L40.7385912,17.4012518 L47.0001917,23 L53.2615366,17.4012518 L53.7033739,16.9375057 C55.4322087,15.1216463 55.4322087,12.1776295 53.7033739,10.3619234 Z" id="ico_attention_sel"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
